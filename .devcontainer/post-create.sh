@@ -1,6 +1,4 @@
---- /home/user/nextflow-cancer-genomics-90min/.devcontainer/post-create.sh
-++ /home/user/nextflow-cancer-genomics-90min/.devcontainer/post-create.sh
-@@ -0,0 +1,21 @@
+
 #!/usr/bin/env bash
 set -euo pipefail
 
