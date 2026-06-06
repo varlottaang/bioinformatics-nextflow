@@ -3,10 +3,10 @@ FROM mcr.microsoft.com/devcontainers/base:ubuntu-22.04
 
 # Keep image small — only install what the course needs
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    +    curl \
-    +    graphviz \
-    +    tree \
-    +    && rm -rf /var/lib/apt/lists/*
+    curl \
+    graphviz \
+    tree \
+    && rm -rf /var/lib/apt/lists/*
 
 # Install Nextflow
 ENV NXF_VER=26.04.0
