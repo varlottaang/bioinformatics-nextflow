@@ -1,0 +1,19 @@
+--- /home/user/nextflow-cancer-genomics-90min/.devcontainer/Dockerfile
++++ /home/user/nextflow-cancer-genomics-90min/.devcontainer/Dockerfile
+@@ -0,0 +1,16 @@
++FROM mcr.microsoft.com/devcontainers/base:ubuntu-22.04
++
++# Keep image small — only install what the course needs
++RUN apt-get update && apt-get install -y --no-install-recommends \
+    +    curl \
+    +    graphviz \
+    +    tree \
+    +    && rm -rf /var/lib/apt/lists/*
++
++# Install Nextflow
++ENV NXF_VER=26.04.0
++RUN curl -fsSL https://get.nextflow.io | bash \
+    +    && mv nextflow /usr/local/bin/ \
+    +    && chmod +x /usr/local/bin/nextflow
++
++# Pre-pull is done in post-create to keep the image build fast

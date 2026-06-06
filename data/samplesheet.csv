@@ -1,0 +1,16 @@
+--- /home/user/nextflow-cancer-genomics-90min/data/samplesheet.csv
++++ /home/user/nextflow-cancer-genomics-90min/data/samplesheet.csv
+@@ -0,0 +1,13 @@
++sample,patient,condition,subtype,fastq_1,fastq_2
++patient1_tumor,patient1,tumor,BRCA,data/reads/patient1_tumor_R1.fastq.gz,data/reads/patient1_tumor_R2.fastq.gz
++patient1_normal,patient1,normal,BRCA,data/reads/patient1_normal_R1.fastq.gz,data/reads/patient1_normal_R2.fastq.gz
++patient2_tumor,patient2,tumor,BRCA,data/reads/patient2_tumor_R1.fastq.gz,data/reads/patient2_tumor_R2.fastq.gz
++patient2_normal,patient2,normal,BRCA,data/reads/patient2_normal_R1.fastq.gz,data/reads/patient2_normal_R2.fastq.gz
++patient3_tumor,patient3,tumor,lung,data/reads/patient3_tumor_R1.fastq.gz,data/reads/patient3_tumor_R2.fastq.gz
++patient3_normal,patient3,normal,lung,data/reads/patient3_normal_R1.fastq.gz,data/reads/patient3_normal_R2.fastq.gz
++patient4_tumor,patient4,tumor,lung,data/reads/patient4_tumor_R1.fastq.gz,data/reads/patient4_tumor_R2.fastq.gz
++patient4_normal,patient4,normal,lung,data/reads/patient4_normal_R1.fastq.gz,data/reads/patient4_normal_R2.fastq.gz
++patient5_tumor,patient5,tumor,colorectal,data/reads/patient5_tumor_R1.fastq.gz,data/reads/patient5_tumor_R2.fastq.gz
++patient5_normal,patient5,normal,colorectal,data/reads/patient5_normal_R1.fastq.gz,data/reads/patient5_normal_R2.fastq.gz
++patient6_tumor,patient6,tumor,colorectal,data/reads/patient6_tumor_R1.fastq.gz,data/reads/patient6_tumor_R2.fastq.gz
++patient6_normal,patient6,normal,colorectal,data/reads/patient6_normal_R1.fastq.gz,data/reads/patient6_normal_R2.fastq.gz
