@@ -1,5 +1,5 @@
 {
-  "name": "Nextflow Cancer Genomics — 90min Course",
+  "name": "Nextflow Cancer Genomics 90min Course",
   "build": {
     "dockerfile": "dockerfile"
   },
