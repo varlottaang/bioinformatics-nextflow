@@ -1,6 +1,3 @@
---- /home/user/nextflow-cancer-genomics-90min/course/walkthroughs/module_d_samplesheet.nf
-++ /home/user/nextflow-cancer-genomics-90min/course/walkthroughs/module_d_samplesheet.nf
-@@ -0,0 +1,76 @@
 #!/usr/bin/env nextflow
 
 /*
