@@ -1,6 +1,3 @@
---- /home/user/nextflow-cancer-genomics-90min/pipeline/modules/multiqc.nf
-++ /home/user/nextflow-cancer-genomics-90min/pipeline/modules/multiqc.nf
-@@ -0,0 +1,36 @@
 /*
  * MULTIQC — Aggregate QC report
  *
