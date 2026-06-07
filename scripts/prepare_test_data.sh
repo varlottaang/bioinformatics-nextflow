@@ -60,11 +60,14 @@ fi
 
 echo "==> Step 2: Build Salmon index (chr17 only)..."
 if [ ! -d "$REF_DIR/salmon_index" ]; then
-    salmon index \
-        --transcripts "$TRANSCRIPTOME_CHR17" \
-        --index "$REF_DIR/salmon_index" \
-        --threads 2 \
-        -k 23
+    docker run --rm \
+        -v "$REF_DIR:/ref" \
+        quay.io/biocontainers/salmon:1.10.3--h6dccd9a_2 \
+        salmon index \
+            --transcripts /ref/chr17_transcripts.fa \
+            --index /ref/salmon_index \
+            --threads 2 \
+            -k 23
     echo "  Salmon index built."
 fi
 
