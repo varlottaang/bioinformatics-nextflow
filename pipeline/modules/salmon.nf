@@ -1,6 +1,3 @@
---- /home/user/nextflow-cancer-genomics-90min/pipeline/modules/salmon.nf
-++ /home/user/nextflow-cancer-genomics-90min/pipeline/modules/salmon.nf
-@@ -0,0 +1,49 @@
 /*
  * SALMON — Transcript-level quantification
  *
