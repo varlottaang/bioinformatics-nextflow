@@ -1,6 +1,3 @@
---- /home/user/nextflow-cancer-genomics-90min/course/walkthroughs/module_e_fastp.nf
-++ /home/user/nextflow-cancer-genomics-90min/course/walkthroughs/module_e_fastp.nf
-@@ -0,0 +1,107 @@
 #!/usr/bin/env nextflow
 
 /*
