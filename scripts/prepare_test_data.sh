@@ -1,6 +1,3 @@
---- /home/user/nextflow-cancer-genomics-90min/scripts/prepare_test_data.sh
-++ /home/user/nextflow-cancer-genomics-90min/scripts/prepare_test_data.sh
-@@ -0,0 +1,172 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
