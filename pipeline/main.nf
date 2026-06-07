@@ -1,6 +1,3 @@
---- /home/user/nextflow-cancer-genomics-90min/pipeline/main.nf
-++ /home/user/nextflow-cancer-genomics-90min/pipeline/main.nf
-@@ -0,0 +1,90 @@
 #!/usr/bin/env nextflow
 
 /*
