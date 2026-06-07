@@ -1,6 +1,3 @@
---- /home/user/nextflow-cancer-genomics-90min/data/reference/tx2gene.tsv
-++ /home/user/nextflow-cancer-genomics-90min/data/reference/tx2gene.tsv
-@@ -0,0 +1,41 @@
 ENST00000357654.9	ENSG00000012048	BRCA1
 ENST00000352993.7	ENSG00000012048	BRCA1
 ENST00000354071.7	ENSG00000012048	BRCA1
