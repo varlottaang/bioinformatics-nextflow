@@ -1,6 +1,3 @@
---- /home/user/nextflow-cancer-genomics-90min/course/demos/module_d_channels.nf
-++ /home/user/nextflow-cancer-genomics-90min/course/demos/module_d_channels.nf
-@@ -0,0 +1,68 @@
 #!/usr/bin/env nextflow
 
 /*
