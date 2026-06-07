@@ -1,6 +1,3 @@
---- /home/user/nextflow-cancer-genomics-90min/data/samplesheet.csv
-++ /home/user/nextflow-cancer-genomics-90min/data/samplesheet.csv
-@@ -0,0 +1,13 @@
 sample,patient,condition,subtype,fastq_1,fastq_2
 patient1_tumor,patient1,tumor,BRCA,data/reads/patient1_tumor_R1.fastq.gz,data/reads/patient1_tumor_R2.fastq.gz
 patient1_normal,patient1,normal,BRCA,data/reads/patient1_normal_R1.fastq.gz,data/reads/patient1_normal_R2.fastq.gz
