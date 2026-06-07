@@ -12,7 +12,7 @@
  * in under 5 minutes on a 2-CPU Codespace.
  */
 
-nextflow.preview.output = true
+// nextflow.preview.output = true
 
 // ─── Parameters ─────────────────────────────────────────────────────────────
 
@@ -86,6 +86,6 @@ workflow {
 // ─── Output block (Nextflow 26.04+) ─────────────────────────────────────────
 // Uncomment the block below on Nextflow 26.04+ for structured output publishing.
 
- output {
-     directory params.outdir
- }
+// output {
+//     directory params.outdir
+// }
