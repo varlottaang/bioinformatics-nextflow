@@ -13,7 +13,7 @@ process FASTP {
 
     tag { "${meta.id}" }
 
-    container 'quay.io/biocontainers/fastp:0.23.4--hadf994f_0'
+    container 'community.wave.seqera.io/library/fastp:1.1.0--08aa7c5662a30d57'
 
     publishDir { "${params.outdir}/fastp/${meta.id}" }, mode: 'copy'
 
