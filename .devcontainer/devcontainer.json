@@ -1,7 +1,7 @@
 {
   "name": "Nextflow Cancer Genomics 90min Course",
   "build": {
-    "dockerfile": "dockerfile"
+    "dockerfile": "Dockerfile"
   },
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {
