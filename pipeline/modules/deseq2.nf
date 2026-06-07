@@ -16,7 +16,7 @@ process DESEQ2 {
 
     tag { "${group_meta.id}" }
 
-    container 'quay.io/biocontainers/pydeseq2:0.4.11--pyhdfd78af_0'
+    container 'quay.io/biocontainers/pydeseq2:0.5.4--pyhdfd78af_0'
 
     publishDir { "${params.outdir}/deseq2/${group_meta.id}" }, mode: 'copy'
 
