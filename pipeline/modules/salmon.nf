@@ -15,7 +15,7 @@ process SALMON {
 
     tag { "${meta.id}" }
 
-    container 'quay.io/biocontainers/salmon:1.10.3--h6dccd9a_2'
+    container 'quay.io/biocontainers/salmon:1.11.4--h7f96273_0'
 
     publishDir { "${params.outdir}/salmon/${meta.id}" }, mode: 'copy'
 
