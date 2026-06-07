@@ -1,6 +1,11 @@
-
 #!/usr/bin/env bash
 set -euo pipefail
+
+echo "==> Installing Nextflow ${NXF_VER:-26.04.0}..."
+export NXF_VER=${NXF_VER:-26.04.0}
+curl -fsSL https://get.nextflow.io | bash
+sudo mv nextflow /usr/local/bin/
+sudo chmod +x /usr/local/bin/nextflow
 
 echo "==> Verifying Nextflow installation..."
 nextflow -version
