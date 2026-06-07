@@ -1,6 +1,3 @@
---- /home/user/nextflow-cancer-genomics-90min/pipeline/modules/deseq2.nf
-++ /home/user/nextflow-cancer-genomics-90min/pipeline/modules/deseq2.nf
-@@ -0,0 +1,105 @@
 /*
  * DESEQ2 — Differential expression analysis (per patient)
  *
