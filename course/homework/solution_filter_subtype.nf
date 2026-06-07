@@ -1,6 +1,3 @@
---- /home/user/nextflow-cancer-genomics-90min/course/homework/solution_filter_subtype.nf
-++ /home/user/nextflow-cancer-genomics-90min/course/homework/solution_filter_subtype.nf
-@@ -0,0 +1,122 @@
 #!/usr/bin/env nextflow
 
 /*
