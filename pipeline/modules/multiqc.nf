@@ -11,7 +11,7 @@
 
 process MULTIQC {
 
-    container 'quay.io/biocontainers/fastp:1.3.3--h43da1c4_0'
+    container 'quay.io/biocontainers/multiqc:1.35--pyhdfd78af_1'
 
     publishDir { "${params.outdir}/multiqc" }, mode: 'copy'
 
