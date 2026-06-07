@@ -12,10 +12,10 @@ nextflow -version
 
 echo "==> Pre-pulling lightweight containers for the course..."
 # Pull only the containers used by the pipeline — all are small
-docker pull quay.io/biocontainers/fastp:0.23.4--hadf994f_0 &
-docker pull quay.io/biocontainers/salmon:1.10.3--h6dccd9a_2 &
-docker pull quay.io/biocontainers/pydeseq2:0.4.11--pyhdfd78af_0 &
-docker pull quay.io/biocontainers/multiqc:1.25.2--pyhdfd78af_0 &
+docker pull quay.io/biocontainers/fastp:1.3.3--h43da1c4_0 &
+docker pull quay.io/biocontainers/salmon:1.11.4--h7f96273_0 &
+docker pull quay.io/biocontainers/pydeseq2:0.5.4--pyhdfd78af_0 &
+docker pull quay.io/biocontainers/multiqc:1.35--pyhdfd78af_1 &
 wait
 
 echo "==> Preparing test data (salmon index + simulated reads)..."
