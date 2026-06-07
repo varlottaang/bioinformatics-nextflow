@@ -23,7 +23,7 @@ cd /workspaces/$(basename "$PWD") 2>/dev/null || cd "$PWD"
 bash scripts/prepare_test_data.sh
 
 echo "==> Running stub check to verify pipeline..."
-nextflow run pipeline/main.nf -profile docker,test -stub
+nextflow run pipeline/main.nf -stub
 
 echo ""
 echo "✅ Environment ready. All 31 stub tasks should have completed."
